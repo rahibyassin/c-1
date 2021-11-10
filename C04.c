@@ -8,7 +8,7 @@ int main(int argc, char **argv){
     printf("Distance Mile : \n");
     scanf("%f", &temp);
 
-    temp /= 1609.334;
+    temp *= 1609.334;
 
     printf("Distance Metre : %f\n", temp);
 
