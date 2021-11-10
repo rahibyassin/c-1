@@ -5,12 +5,12 @@ int main(int argc, char **argv){
     
     float temp;
 
-    printf("Temperature en F : \n");
+    printf("Temperature en C : \n");
     scanf("%f", &temp);
 
-    temp = (temp - 32) * 5/9;
+    temp = (temp * 1.8) + 32;
 
-    printf("Temperature en C : %f\n", temp);
+    printf("Temperature en F : %f\n", temp);
 
     return 0;
 }
